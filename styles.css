@@ -171,4 +171,13 @@ span{
     .top-box{
         margin-bottom: 10px;
     }
+    #user-input{
+        font-size: 20px;
+        width: 100px;
+        max-width: fit-content;
+        height: 70px;
+    }
+    .section{
+        box-shadow: rgba(28, 28, 32, 0.377) 0px 7px 29px 0px;
+    }
 }
