@@ -165,7 +165,10 @@ span{
         display: block;
     }
     .dark-mode, .light-mode{
-        width: 100%;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
         height: 50px;
     }
     .btm-box{
@@ -175,6 +178,7 @@ span{
         width: 150px;
         height: 50px;
         margin-top: 5px;
+        border-radius: 25px;
     }
     .top-box{
         margin-bottom: 10px;
