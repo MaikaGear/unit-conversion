@@ -4,11 +4,12 @@ body {
     font-family: 'Heebo', sans-serif;
     background-image: -webkit-linear-gradient(rgba(83, 80, 255, 0.349), rgb(255, 255, 255));
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 img{
     width: 90px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .error-msg, .error-msg2{
     color: rgb(236, 49, 96);
@@ -20,7 +21,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-bottom: 20px;
+    padding-bottom: 65px;
     background-color: #6943FF;
     border-radius: 5px;
 }
@@ -28,7 +29,7 @@ img{
 .btm-box{
     display: flex;
     flex-direction: column;
-    padding-top: 30px;
+    padding-top: 80px;
 }
 
 .L-box, .V-box, .M-box {
@@ -62,6 +63,7 @@ img{
     margin: 20px 80px;
     background-color: #F4F4F4;
     height: fit-content;
+    min-height: 840px;
     padding-bottom: 40px;
     width: 600px;
     margin: 30px auto;
@@ -84,6 +86,7 @@ button{
     margin-top: 10px;
 }
 
+
 .reset-btn:disabled, .convert-btn:disabled{
     background-color: rgba(175, 175, 175, 0.226);
     color: #ffffff2d;
@@ -99,6 +102,7 @@ h1{
     color: #FFFFFF;
     cursor: default;
     letter-spacing: 2px;
+    margin-top: 10px;
 }
 
 h3{
@@ -183,5 +187,10 @@ span{
     }
     .section{
         box-shadow: rgba(28, 28, 32, 0.377) 0px 7px 29px 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    img{
+        margin-top: 15px;
     }
 }
